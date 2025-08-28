@@ -1,0 +1,100 @@
+main {
+    margin-top: var(--nav-height);
+}
+
+.section-hero-grid {
+    display: grid;
+    /* grid-template-rows: auto 1fr auto; */
+    grid-template-columns: calc(20%) minmax(0, 1fr);
+    gap: 2.8rem;
+}
+
+.hero-left {
+    padding: 2.5rem 1rem 0 0;
+    border-right: 1px solid var(--color-border);
+}
+
+ul.catalog {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+ul.catalog li a:has(img) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {}
+
+.hero-right {
+    padding-top: 2.5rem;
+}
+
+.hero-right-container {
+    padding: 1rem 0 0.6875rem 4rem;
+    background-color: var(--color-text-2);
+}
+
+.hero-banner {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.375rem;
+}
+
+.hero-banner-description {
+    margin-top: 2.625rem;
+}
+
+.hero-banner-description h4 {
+    margin-bottom: 1.375rem;
+    line-height: 1.25;
+    letter-spacing: 0.0rem;
+}
+
+.hero-banner-description a.link {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    color: var(--color-text);
+    gap: 0.5rem;
+}
+
+.hero-banner-description a.link h6 {
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid var(--color-text);
+}
+
+.hero-banner-description-series {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.hero-banner-description-series h5 {
+    padding-top: 0.90625rem;
+}
+
+.hero-ratio-grid {
+    padding-right: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.ratio {
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.selected {
+    width: 0.875rem;
+    height: 0.875rem;
+    background-color: var(--color-secondary-2);
+    border: 2px solid var(--color-primary);
+}

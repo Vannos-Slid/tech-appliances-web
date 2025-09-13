@@ -1,0 +1,123 @@
+.section {}
+
+.section-today {}
+
+.section-today .container {
+    padding-top: 5rem;
+    padding-bottom: 3.75rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.section-today .button {
+    margin: 3.75rem auto 0 auto;
+    display: inline-block;
+}
+
+.home-section__header {
+    display: flex;
+    margin-bottom: 2.5rem;
+    gap: 5.4375rem;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-title .block {
+    width: 1.25rem;
+    height: 2.5rem;
+    background-color: var(--color-secondary-2);
+    border-radius: 4px;
+}
+
+.home-section__headers h6 {
+    color: var(--color-secondary-2);
+}
+
+.home-section__headers h4 {
+    color: var(--color-text-2);
+}
+
+.home-section__header-right {
+    flex: 1;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    color: var(--color-secondary-2);
+}
+
+.home-section__header-timer {
+    position: relative;
+    display: flex;
+    gap: 2.375rem;
+    color: var(--color-text-2);
+}
+
+.home-section__header-timer li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-section__header-timer .number {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.home-section__header-timer li:not(:last-of-type) .number::after {
+    position: absolute;
+    content: ':';
+    right: -1.5rem;
+    color: var(--color-hover-button);
+}
+
+.home-section__header-timer span {
+    align-self: flex-end;
+    margin-bottom: 0.5rem;
+    color: var(--color-hover-button);
+    font-size: 2rem;
+}
+
+.timer-days {}
+
+.number {}
+
+.timer-hours {}
+
+.timer-minutes {}
+
+.timer-seconds {}
+
+.home-section__header-move-arrows {
+    margin-left: auto;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.arrow-circle {
+    width: 2.875rem;
+    height: 2.875rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-secondary);
+    border-radius: 50%;
+}
+
+.home-section__body {}
+
+.home-section__body-grid {
+    width: 100%;
+    display: flex;
+    gap: 1.875rem;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+}

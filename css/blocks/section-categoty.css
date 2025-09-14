@@ -1,0 +1,106 @@
+.section {}
+
+.section-categories {}
+
+.section-categories .container {
+    padding-top: 5rem;
+    padding-bottom: 4.375rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.home-section__header {}
+
+.home-section__headers {}
+
+.section-title {}
+
+.block {}
+
+.home-section__header-right {}
+
+.home-section__header-move-arrows {}
+
+.arrow-circle {}
+
+.home-section__body {}
+
+.section-categories .home-section__body-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.875rem;
+}
+
+.card-category {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: 0.25rem;
+    transition: background-color .3s ease;
+}
+
+.card-category:hover {
+    background-color: var(--color-secondary-2);
+}
+
+.card-category .img {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-image: url(./../../img/section-category/Category-CellPhone.svg);
+}
+
+.card-category .img#img-1 {
+    background-image: url(./../../img/section-category/Category-CellPhone.svg);
+}
+
+.card-category .img#img-2 {
+    background-image: url(./../../img/section-category/Category-Computer.svg);
+}
+
+.card-category .img#img-3 {
+    background-image: url(./../../img/section-category/Category-SmartWatch.svg);
+}
+
+.card-category .img#img-4 {
+    background-image: url(./../../img/section-category/Category-Camera.svg);
+}
+
+.card-category .img#img-5 {
+    background-image: url(./../../img/section-category/Category-Headphone.svg);
+}
+
+.card-category .img#img-6 {
+    background-image: url(./../../img/section-category/Category-Gamepad.svg);
+}
+
+.card-category:hover .img#img-1 {
+    background-image: url(./../../img/section-category/Category-CellPhone-white.svg);
+}
+
+.card-category:hover .img#img-2 {
+    background-image: url(./../../img/section-category/Category-Computer-white.svg);
+}
+
+.card-category:hover .img#img-3 {
+    background-image: url(./../../img/section-category/Category-SmartWatch-white.svg);
+}
+
+.card-category:hover .img#img-4 {
+    background-image: url(./../../img/section-category/Category-Camera-white.svg);
+}
+
+.card-category:hover .img#img-5 {
+    background-image: url(./../../img/section-category/Category-Headphone-white.svg);
+}
+
+.card-category:hover .img#img-6 {
+    background-image: url(./../../img/section-category/Category-Gamepad-white.svg);
+}
+
+.card-category:hover h5 {
+    color: var(--color-text);
+}

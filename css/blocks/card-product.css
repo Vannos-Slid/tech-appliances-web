@@ -51,12 +51,29 @@
 }
 
 .hover-add-to-card {
+    max-height: 0;
+    padding: 0.5rem 0;
+    width: 100%;
+    overflow: hidden;
     position: absolute;
+    opacity: 0;
     bottom: 0;
-    display: none;
+    text-align: center;
+    color: var(--color-text);
+    background-color: var(--color-button);
+    border-radius: 0 0 0.5rem 0.5rem;
+    /* transition: max-height 100.4s ease-in-out; */
+    transition: opacity 0.3s ease-in-out;
 }
 
-.card-product-bottom {}
+.card-product:hover .hover-add-to-card {
+    opacity: 1;
+    max-height: 300px;
+}
+
+.card-product-bottom {
+    z-index: 2;
+}
 
 .card-product-bottom h5 {
     margin-bottom: 0.5rem;
@@ -82,7 +99,11 @@
     gap: 0.5rem;
 }
 
-.card-product-bottom .stars {}
+.card-product-bottom .stars {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
 
 .card-product-bottom .quantity {
     color: var(--color-text-1);

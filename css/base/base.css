@@ -12,11 +12,9 @@
     --color-text-1: #7D8184;
     --color-text-2: #000000;
 
-    --color-border: #000000;
-    --color-border-1: #00FF66;
-    --color-border-2: #DB4444;
-
     --color-button: #000000;
+    --color-button-1: #00FF66;
+    --color-button-2: #DB4444;
 
     --color-hover-button: #E07575;
     --color-hover-button-1: #A0BCE0;
@@ -26,7 +24,8 @@
     --font-base: "Poppins", sans-serif;
     --font-inter: "Inter", sans-serif;
 
-    --container-rl-padding: 2em;
+    --container-rl-padding: 0em;
+    --container-width: 73.125rem;
 }
 
 body {
@@ -46,7 +45,8 @@ a {
     margin: 0 auto;
     padding: 0 var(--container-rl-padding);
 
-    max-width: calc(1170px + var(--container-rl-padding) * 2);
+    width: var(--container-width);
+    max-width: var(--container-width);
     width: 100%;
 
     z-index: 1;

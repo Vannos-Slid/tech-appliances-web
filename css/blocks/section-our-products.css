@@ -3,10 +3,9 @@
 .section-our-products {}
 
 .section-our-products .container {
-    padding: 5rem 0 3.75rem;
+    padding: 5rem 0 4.375rem;
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid var(--color-border);
     display: flex;
     flex-direction: column;
 }
@@ -18,16 +17,6 @@
 .section-title {}
 
 .block {}
-
-.title {}
-
-.t-16px {}
-
-.semibold {}
-
-.heading {}
-
-.h-36px {}
 
 .home-section__header-right {}
 
@@ -52,12 +41,6 @@
     background-color: var(--color-button-1);
 }
 
-.t-12px {}
-
-.regular {}
-
-.hidden {}
-
 .circle-wrapper {}
 
 .hover-add-to-card {}
@@ -75,8 +58,6 @@
 .stars {}
 
 .quantity {}
-
-.t-14px {}
 
 .section-our-products .button {
     margin: 3.75rem auto 0 auto;

@@ -92,7 +92,7 @@ ul.catalog li a:has(img) {
     cursor: pointer;
 }
 
-.selected {
+.section-hero .selected {
     width: 0.875rem;
     height: 0.875rem;
     background-color: var(--color-secondary-2);

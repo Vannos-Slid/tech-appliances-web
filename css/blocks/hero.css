@@ -25,8 +25,6 @@ ul.catalog li a:has(img) {
     justify-content: space-between;
 }
 
-.menu {}
-
 .hero-right {
     padding-top: 2.5rem;
 }

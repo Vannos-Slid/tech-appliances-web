@@ -1,7 +1,3 @@
-.section {}
-
-.section-our-products {}
-
 .section-our-products .container {
     padding: 5rem 0 4.375rem;
     display: flex;
@@ -10,22 +6,6 @@
     flex-direction: column;
 }
 
-.home-section__header {}
-
-.home-section__headers {}
-
-.section-title {}
-
-.block {}
-
-.home-section__header-right {}
-
-.home-section__header-move-arrows {}
-
-.arrow-circle {}
-
-.home-section__body {}
-
 .section-our-products .home-section__body-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -33,31 +13,13 @@
     gap: 3.75rem 1.875rem;
 }
 
-.card-product {}
-
-.card-product-top {}
-
 .section-our-products .discount {
     background-color: var(--color-button-1);
 }
 
-.circle-wrapper {}
-
-.hover-add-to-card {}
-
-.card-product-bottom {}
-
-.medium {}
-
-.price {}
-
 .section-our-products .ratings {
     align-items: center;
 }
-
-.stars {}
-
-.quantity {}
 
 .section-our-products .button {
     margin: 3.75rem auto 0 auto;

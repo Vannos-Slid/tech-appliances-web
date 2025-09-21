@@ -1,0 +1,17 @@
+.section {}
+
+.section-warranties {}
+
+.section-warranties .container {
+    padding: 4.375rem 0 8.75rem;
+}
+
+.home-section__body {}
+
+.section-warranties .home-section__body-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem 5.5rem;
+    flex-wrap: wrap;
+}

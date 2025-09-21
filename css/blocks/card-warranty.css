@@ -1,0 +1,28 @@
+.card-warranty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card-warranty .circle-wrapper {
+    margin-bottom: 1rem;
+    position: static;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-button);
+    border: 0.6875rem solid #C1C1C1;
+    cursor: default;
+}
+
+.card-warranty .title {
+    color: var(--color-text-2);
+}
+
+.card-warranty img {
+    pointer-events: none;
+}

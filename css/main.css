@@ -17,3 +17,6 @@
 @import "./blocks/section-categories-ad.css";
 @import "./blocks/section-our-products.css";
 @import "./blocks/section-featured.css";
+@import "./blocks/card-feature.css";
+@import "./blocks/section-warranties.css";
+@import "./blocks/card-warranty.css"

@@ -28,6 +28,10 @@
     --container-width: 73.125rem;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--color-bg);
     color: var(--color-text);

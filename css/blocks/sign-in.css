@@ -1,0 +1,117 @@
+:root {
+    --sign-in-container: 90rem;
+}
+
+.main {}
+
+.section-hero {}
+
+.section-sign-in {}
+
+.container {}
+
+.container.container__sign-in {
+    padding: 3.75rem 0 8.75rem;
+    max-width: var(--sign-in-container);
+    display: flex;
+    align-items: center;
+    gap: 8.125rem;
+}
+
+.container__login {}
+
+.sign-in.login.left {
+    /* width: max-content; */
+    /* flex-basis: 100%; */
+}
+
+.container.container__sign-in .form-right {
+    width: 23.125rem;
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+}
+
+.form-right-title {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: var(--color-text-2);
+}
+
+.fields {
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.fields input {
+    padding-bottom: 0.5rem;
+    position: relative;
+    color: var(--color-text-2);
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.4);
+}
+
+.container.container__sign-in .form-right .fields input::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 0.0625rem;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.form-title {}
+
+.heading {}
+
+.h-36px {}
+
+.medium {}
+
+.title {}
+
+.t-16px {}
+
+.regular {}
+
+.container.container__sign-in .form-right .button:first-of-type {
+    margin-bottom: 1rem;
+}
+
+.container.container__sign-in .form-right .button:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background-color: white;
+    color: var(--color-text-2);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    margin-bottom: 2rem;
+}
+
+.has-ac {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--color-text-2);
+    opacity: 0.7;
+}
+
+.has-ac a {
+    position: relative;
+}
+
+.has-ac a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 0.0625rem;
+    background-color: black;
+    opacity: 0.5;
+}

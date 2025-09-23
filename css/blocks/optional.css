@@ -1,0 +1,9 @@
+.circle-wrapper.scroll-to-top {
+    width: 2.875rem;
+    height: 2.875rem;
+    right: 5.5rem;
+    bottom: 2rem;
+    position: fixed;
+    background-color: var(--color-secondary);
+    z-index: 999;
+}

@@ -11,10 +11,6 @@
 
 <body>
 
-    <a href="#" class="circle-wrapper scroll-to-top">
-        <img src="./img/base/icons_arrow-up.svg" alt="">
-    </a>
-
     <header class="header">
         <nav class="header-section-nav">
 
@@ -55,21 +51,29 @@
     </header>
 
     <main class="main">
-        <section class="section-hero">
-            <div class="container container__sign-in container__login">
-                <form action="">
-                    <h1 class="form-title heading h-36px medium">Create an account</h1>
-                    <p class="title t-16px regular">Enter your details below</p>
+        <section class="section-hero section-login">
+            <div class="container container__login">
 
-                    <input class="title t-16px regular" type="text">
-                    <input class="title t-16px regular" type="email tel" name="" id="">
-                    <input class="title t-16px regular" type="password" name="" id="">
+                <div class="sign-in login left">
+                    <img src="./img/signin-login/dl.beatsnoop 1.png"
+                        srcset="./img/signin-login/dl.beatsnoop 1@2x.png 2x" alt="">
+                </div>
 
-                    <button class="button">Create Account</button>
-                    <button class="button">Sign up with Google</button>
+                <form class="form-right" action="">
+                    <div class="form-right-title">
+                        <h1 class="form-title heading h-36px medium">Log in to Exclusive</h1>
+                        <p class="title t-16px regular">Enter your details below</p>
+                    </div>
 
-                    <div class="has-ac">
-                        <p class="title t-16px regular">Already have account?</p>
+                    <div class="fields">
+                        <input class="title t-16px regular" type="email tel" placeholder="Email or Phone Number" name=""
+                            id="">
+                        <input class="title t-16px regular" type="password" placeholder="Password" name="" id="">
+                    </div>
+
+                    <div class="login">
+                        <button class="button title t-16px medium">Log in</button>
+                        <a href="./login.html">Forget Password?</a>
                     </div>
                 </form>
             </div>

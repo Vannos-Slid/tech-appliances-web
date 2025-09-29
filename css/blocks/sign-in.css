@@ -2,27 +2,12 @@
     --sign-in-container: 90rem;
 }
 
-.main {}
-
-.section-hero {}
-
-.section-sign-in {}
-
-.container {}
-
 .container.container__sign-in {
     padding: 3.75rem 0 8.75rem;
     max-width: var(--sign-in-container);
     display: flex;
     align-items: center;
     gap: 8.125rem;
-}
-
-.container__login {}
-
-.sign-in.login.left {
-    /* width: max-content; */
-    /* flex-basis: 100%; */
 }
 
 .container.container__sign-in .form-right {
@@ -64,20 +49,6 @@
     background-color: black;
     opacity: 0.5;
 }
-
-.form-title {}
-
-.heading {}
-
-.h-36px {}
-
-.medium {}
-
-.title {}
-
-.t-16px {}
-
-.regular {}
 
 .container.container__sign-in .form-right .button:first-of-type {
     margin-bottom: 1rem;

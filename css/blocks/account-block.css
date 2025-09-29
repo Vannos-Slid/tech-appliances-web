@@ -1,0 +1,32 @@
+.account-block {
+    position: relative;
+}
+
+.account-icon {
+    cursor: pointer;
+}
+
+.account-options {
+    display: none;
+    max-width: 14.0625rem;
+    width: 14.0625rem;
+    position: absolute;
+    right: 0;
+    border-radius: 0.25rem;
+    background: var(--color-text-2);
+}
+
+.account-options:hover {
+    display: block;
+}
+
+.account-icon:hover+.account-options {
+    display: block;
+}
+
+.account-options-link {
+    padding: 0.875rem 1rem;
+    display: flex;
+    gap: 1rem;
+    color: var(--color-text);
+}

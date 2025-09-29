@@ -2,27 +2,12 @@
     --sign-in-container: 90rem;
 }
 
-.main {}
-
-.section-hero {}
-
-.section-sign-in {}
-
-.container {}
-
 .container.container__login {
     padding: 3.75rem 0 8.75rem;
     max-width: var(--sign-in-container);
     display: flex;
     align-items: center;
     gap: 8.125rem;
-}
-
-.container__login {}
-
-.sign-in.login.left {
-    /* width: max-content; */
-    /* flex-basis: 100%; */
 }
 
 .container.container__login .form-right {
@@ -52,20 +37,6 @@
     color: var(--color-text-2);
     border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.4);
 }
-
-.form-title {}
-
-.heading {}
-
-.h-36px {}
-
-.medium {}
-
-.title {}
-
-.t-16px {}
-
-.regular {}
 
 .login {
     display: flex;

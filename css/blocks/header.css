@@ -54,6 +54,8 @@
 .header-tools-search-bar input {
     display: block;
     flex: 1;
+    color: var(--color-text-2);
+    cursor: pointer;
 }
 
 .header-tools-card-wishlist {

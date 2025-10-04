@@ -36,6 +36,10 @@
     opacity: 1;
 }
 
+.section-product-detail {
+    padding-bottom: 4.375rem;
+}
+
 .section-product-detail .container {
     /* display: grid;
     grid-template-columns: 0.66fr 0.34fr;
@@ -86,6 +90,8 @@
 
 .section-product-detail__details {
     max-width: 25rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .default-detail {
@@ -296,6 +302,7 @@
 }
 
 .warranties {
+    flex-basis: 100%;
     padding: 0.5rem 0;
     display: grid;
     grid-template-columns: 1fr;
@@ -309,6 +316,14 @@
     gap: 1rem;
     display: flex;
     color: var(--color-text-2);
+}
+
+.warrantie a {
+    text-decoration: underline;
+}
+
+.warrantie:not(:last-of-type) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .warrantie__text {}

@@ -1,0 +1,90 @@
+.section-contact {
+    padding: 2.5rem 0 8.75rem;
+}
+
+.section-contact .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 1.875rem;
+}
+
+.section-contact__left {
+    padding: 2.5rem 2.1875rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 13px 0 rgba(0, 0, 0, 0.05);
+}
+
+.section-contact__left .type-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.section-contact__left .type-contact:not(:last-of-type) {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.section-contact__left .type-contact:last-of-type {
+    padding-top: 2rem;
+}
+
+.section-contact__left .contact-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section-contact__left .contact-title h3 {
+    color: var(--color-text-2);
+}
+
+.title {}
+
+.t-16px {}
+
+.medium {}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-text {
+    color: var(--color-text-2);
+}
+
+.section-contact__right.form {
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 13px 0 rgba(0, 0, 0, 0.05);
+}
+
+.form {}
+
+.section-contact__right.form .input-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.section-contact__right.form :is(input, textarea) {
+    padding: 0.8125rem 1rem;
+    background-color: var(--color-secondary);
+    border-radius: 0.25rem;
+    color: var(--color-text-2);
+}
+
+.section-contact__right.form textarea {
+    min-height: 12.9375rem;
+}
+
+.section-contact__right.form .button {
+    align-self: flex-end;
+}

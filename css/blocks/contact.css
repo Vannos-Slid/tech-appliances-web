@@ -82,6 +82,9 @@
 }
 
 .section-contact__right.form textarea {
+    flex: 1;
+    resize: none;
+    outline: none;
     min-height: 12.9375rem;
 }
 

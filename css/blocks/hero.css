@@ -90,9 +90,11 @@ ul.catalog li a:has(img) {
     cursor: pointer;
 }
 
-.section-hero .selected {
+.ratio.selected {
     width: 0.875rem;
     height: 0.875rem;
     background-color: var(--color-secondary-2);
     border: 2px solid var(--color-primary);
 }
+
+.section-hero .selected {}

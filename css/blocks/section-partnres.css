@@ -1,0 +1,43 @@
+.section-partners {
+    padding: 4.375rem 0;
+}
+
+.container {}
+
+.section-partners__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.875rem;
+}
+
+.card-partner {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img-wrapper {}
+
+.card-partner-text {}
+
+.heading {}
+
+.h-32px {}
+
+.medium {}
+
+.title {}
+
+.t-16px {}
+
+.regular {}
+
+.links {}
+
+.hero-ratio-grid {}
+
+.ratio-grid {}
+
+.ratio {}
+
+.selected {}

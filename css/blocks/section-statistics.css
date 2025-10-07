@@ -1,0 +1,80 @@
+.section-statistics {
+    padding: 4.375rem 0;
+}
+
+.container {}
+
+.section-statistics__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-content: center;
+    gap: 1.875rem;
+}
+
+.card-statistic {
+    padding: 1.875rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-text-2);
+    gap: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.25rem;
+}
+
+.card-statistic:hover {
+    color: var(--color-text);
+}
+
+.card-statistic .heading {
+    line-height: 0.94;
+    letter-spacing: 0.04rem;
+}
+
+.card-statistic .circle-wrapper {
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    position: static;
+    cursor: default;
+    background-color: var(--color-button);
+    border: 0.6875rem solid #C1C1C1;
+}
+
+.card-statistic:hover .circle-wrapper {
+    background-color: white;
+    border: 0.6875rem solid #E67C7C;
+}
+
+.card-statistic:hover .circle-wrapper svg path {
+    stroke: black;
+}
+
+.card-statistic .circle-wrapper svg path {
+    stroke: white;
+}
+
+.card-statistic:hover {
+    background-color: var(--color-secondary-2);
+    box-shadow: 0 0.125rem 0.625rem 0.125rem rgba(0, 0, 0, 0.2);
+}
+
+.card-statistic-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+}
+
+.heading {}
+
+.h-32px {}
+
+.bold {}
+
+.title {}
+
+.t-16px {}
+
+.regular {}

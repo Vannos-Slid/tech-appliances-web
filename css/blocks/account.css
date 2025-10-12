@@ -1,0 +1,115 @@
+.main {}
+
+.section-hero-nav {}
+
+.section-hero-nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-hero-nav-wellcome {
+    color: var(--color-text-2);
+}
+
+.emphasize {
+    color: var(--color-secondary-2);
+}
+
+.section-account {
+    padding: 2.5rem 0 8.75rem;
+}
+
+.section-account .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 3.75rem;
+}
+
+.section-account__left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.section-account__left .type-account h3 {
+    color: var(--color-text-2);
+    margin-bottom: 0.5rem;
+}
+
+.section-account__left .type-account ul {
+    padding-left: 2.1875rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.section-account__left .type-account .manage-options a {
+    opacity: 0.5;
+}
+
+.section-account__left .type-account .manage-options a.selected {
+    opacity: 1;
+    color: var(--color-secondary-2);
+}
+
+.section-account__right {
+    max-width: 54.375rem;
+    flex: 1;
+    padding: 2.5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 13px 0 rgba(0, 0, 0, 0.05);
+}
+
+.section-account__right.form h2 {
+    color: var(--color-secondary-2);
+    margin-bottom: 1rem;
+}
+
+.section-account__right.form .input-row {
+    display: flex;
+    gap: 3.125rem;
+}
+
+.section-account__right.form .input-row .input-field {
+    width: 48.5%;
+    margin-bottom: 1.5rem;
+}
+
+.section-account__right.form .input-field h5 {
+    color: var(--color-text-2);
+    margin-bottom: 0.5rem;
+}
+
+.input-field input {
+    border-radius: 0.25rem;
+    padding: 0.8125rem 1rem;
+    width: 100%;
+    color: var(--color-text-2);
+    background-color: var(--color-secondary);
+    /* max-width: 20.625rem; */
+}
+
+.input-field.passwords {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.input-field.passwords input:not(:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+.confirm-options {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+
+.confirm-options .cancel {
+    color: var(--color-text-2);
+}
+
+.button {}

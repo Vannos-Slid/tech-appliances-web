@@ -96,5 +96,3 @@ ul.catalog li a:has(img) {
     background-color: var(--color-secondary-2);
     border: 2px solid var(--color-primary);
 }
-
-.section-hero .selected {}

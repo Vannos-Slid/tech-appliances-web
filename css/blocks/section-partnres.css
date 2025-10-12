@@ -2,8 +2,6 @@
     padding: 4.375rem 0;
 }
 
-.container {}
-
 .section-partners__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -14,7 +12,6 @@
 .card-partner {
     display: flex;
     flex-direction: column;
-
 }
 
 .card-partner .img-wrapper {
@@ -37,24 +34,10 @@
     line-height: 0.94;
 }
 
-.heading {}
-
-.h-32px {}
-
-.medium {}
-
-.title {}
-
-.t-16px {}
-
-.regular {}
-
 .card-partner .links {
     display: flex;
     gap: 1rem;
 }
-
-.hero-ratio-grid {}
 
 .ratio-grid {
     padding: 0;

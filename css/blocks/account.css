@@ -1,7 +1,3 @@
-.main {}
-
-.section-hero-nav {}
-
 .section-hero-nav .container {
     display: flex;
     justify-content: space-between;
@@ -111,5 +107,3 @@
 .confirm-options .cancel {
     color: var(--color-text-2);
 }
-
-.button {}

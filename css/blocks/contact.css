@@ -42,12 +42,6 @@
     color: var(--color-text-2);
 }
 
-.title {}
-
-.t-16px {}
-
-.medium {}
-
 .contact-text {
     display: flex;
     flex-direction: column;
@@ -66,8 +60,6 @@
     border-radius: 0.25rem;
     box-shadow: 0 1px 13px 0 rgba(0, 0, 0, 0.05);
 }
-
-.form {}
 
 .section-contact__right.form .input-row {
     display: flex;

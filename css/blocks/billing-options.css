@@ -1,0 +1,63 @@
+.section-billing-detail {}
+
+.container {}
+
+.heading {}
+
+.h-36px {}
+
+.medium {}
+
+.section-billing-detail-form {
+    display: flex;
+}
+
+.section-billing-detail__left {}
+
+.input-column {}
+
+.input-field {}
+
+.title {}
+
+.t-16px {}
+
+.regular {}
+
+.necessary {}
+
+.optional {}
+
+.confirm-safe {}
+
+.t-14px {}
+
+.section-billing-detail__right {
+    max-width: 32.9375rem;
+    /* flex: 1; */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-list {}
+
+.product-row {}
+
+.pruduct-row-text {}
+
+.product-name {}
+
+.product-price {}
+
+.check {}
+
+.pay-option {}
+
+.img-list {}
+
+.hidden {}
+
+.section-coupon {}
+
+.button {}

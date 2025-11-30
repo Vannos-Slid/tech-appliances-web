@@ -1,34 +1,45 @@
-.section-billing-detail {}
+.section-billing-detail {
+    padding: 2.5rem 0 8.75rem;
+}
+
+.section-billing-detail h1 {
+    color: var(--color-text-2);
+    line-height: 83%;
+    letter-spacing: 0.04rem;
+    margin-bottom: 3rem;
+}
 
 .container {}
-
-.heading {}
-
-.h-36px {}
-
-.medium {}
 
 .section-billing-detail-form {
     display: flex;
 }
 
-.section-billing-detail__left {}
+.section-billing-detail__left {
+    display: flex;
+    flex-direction: column;
+}
 
-.input-column {}
+.section-billing-detail__left .input-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 
-.input-field {}
+.section-billing-detail__left .input-column label {
+    color: var(--color-text-2);
+    opacity: 0.4;
+}
 
-.title {}
+.section-billing-detail__left .input-column label:has(input:required) span::after {
+    content: "*";
+    color: var(--color-secondary-2);
+}
 
-.t-16px {}
-
-.regular {}
-
-.necessary {}
-
-.optional {}
-
-.confirm-safe {}
+.confirm-safe {
+    margin-top: 1.5rem;
+    color: var(--color-text-2);
+}
 
 .t-14px {}
 
